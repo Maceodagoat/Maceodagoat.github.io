@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>NMT Expirements Homepage</title>
-    <link rel="icon" type="images/png" href="/images/Spidermanicon.png">
-    <style>
-        body {
-            font-family: 'Brush Script MT', cursive;
-            margin: 40px;
-            background: #4997D0;
-        }
-        h1, h2 {
-            color: #222;
-        }
-        .experiment {
-            background: #DF00FF;
-            padding: 30px;
-            margin-bottom: 35px;
-            border-radius: 15px;
-        }
-        a {
-            color: #0055cc;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>NMT Experiments Homepage</title>
+  <link rel="icon" type="image/png" href="/images/Spidermanicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Experiments Homepage</h1>
-    <p>Welcome to the home page for all my New Media and Tech experiments. Below you can click a link to see the full expirement</p>
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="BlackBox.html">Black Box Investigation</a></li>
+    <li><a href="screenprint.html">Screenprint Experiment</a></li>
+    <li><a href="DNA-Experiment.html">DNA Experiment</a></li>
+  </ul>
+</nav>
 
-    <div class="experiment">
-        <h2>Black Box Experiment</h2>
-        <p>
-            Placeholder
-            (add image)
-        </p>
-        <a href="/BlackBox.html">Go To Black Box Experiment →</a>
-    </div>
+<header class="hero">
+  <h1>NMT Experiments Homepage</h1>
+  <p>Below are all of my New Media & Tech projects for this year.</p>
+</header>
 
-    <div class="experiment">
-        <h2>Screen Print Experiment</h2>
-        <p>
-            Placeholder
-            (add image)
-        </p>
-        <a href="/screenprint.html">Go To Screen Print Experiment →</a>
-    </div>
+<main class="content">
 
-    <div class="experiment">
-        <h2>DNA Experiment</h2>
-        <p>
-            Placeholder
-            (add image)
-        </p>
-        <a href="/DNA-Experiment.html">Go To DNA Experiment →</a>
-    </div>
+<section>
+  <h2>Projects</h2>
+
+  <div class="card-grid">
+
+    <a class="card" href="/BlackBox.html">
+      <h3>Black Box Experiment</h3>
+      <p>Placeholder</p>
+    </a>
+
+    <a class="card" href="/screenprint.html">
+      <h3>Our Shared Canvas</h3>
+      <p>Placeholder</p>
+    </a>
+
+    <a class="card" href="/DNA-Experiment.html">
+      <h3>DNA Experiment</h3>
+      <p>Placeholder</p>
+    </a>
+
+  </div>
+</section>
+
+<section>
+  <h2>About This Site</h2>
+  <p>
+    This website is a collection of my New Media & Tech experiments, including engineering,
+    digital photography, Photoshop, Maya 3D modeling, and scientific investigations. Each project page
+    includes photos, data, models, and reflections that show my learning process.
+  </p>
+</section>
+
+</main>
 
 </body>
 </html>
