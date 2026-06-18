@@ -122,4 +122,15 @@ h2 {
   margin-bottom: 0;
   color: #444;
 }
+.centerediframe {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.centerediframe iframe {
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+}
 
